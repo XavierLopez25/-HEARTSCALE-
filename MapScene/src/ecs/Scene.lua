@@ -1,0 +1,47 @@
+local Registry = require("src.ecs.Registry")
+
+local Scene = {}
+Scene.__index = Scene
+
+function Scene.new(name)
+    return setmetatable({
+        name = name,
+        registry = Registry.new(),
+        systems = {},
+        disabledSystems = {},
+    }, Scene)
+end
+
+function Scene:addSystem(system)
+    self.systems[#self.systems + 1] = system
+end
+
+function Scene:setup()
+    for _, system in ipairs(self.systems) do
+        if system.setup then system.setup(self) end
+    end
+end
+
+function Scene:update(dt)
+    for _, system in ipairs(self.systems) do
+        if system.update and not self.disabledSystems[system] then
+            system.update(self, dt)
+        end
+    end
+end
+
+function Scene:draw()
+    for _, system in ipairs(self.systems) do
+        if system.draw and not self.disabledSystems[system] then
+            system.draw(self)
+        end
+    end
+end
+
+function Scene:unload()
+    for _, system in ipairs(self.systems) do
+        if system.unload then system.unload(self) end
+    end
+end
+
+return Scene
