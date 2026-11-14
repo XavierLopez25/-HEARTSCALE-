@@ -1,5 +1,5 @@
 -- Optional pixel-art assets for the guild map.
--- The contract lives in LIBRESPRITE_ASSET_BRIEF.md. Every file is optional:
+-- The sizes and atlas coordinates below are the asset contract. Every file is optional:
 -- a missing, unreadable or wrongly sized file is ignored and the renderer
 -- falls back to primitive placeholders, so missing art never breaks the game.
 local MapAssets = {}

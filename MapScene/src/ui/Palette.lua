@@ -19,8 +19,8 @@ return {
     warning = { 0.96, 0.77, 0.20 },
     bad = { 0.90, 0.20, 0.26 },
 
-    -- Map placeholder tokens. These hex values are the exact palette in
-    -- LIBRESPRITE_ASSET_BRIEF.md, so placeholder and final art stay compatible.
+    -- Map placeholder tokens. These hex values match assets/map/heartscale_map.gpl,
+    -- so placeholder and final art stay compatible.
     grass = hex("#26352A"),
     grassDark = hex("#1F2C23"),
     path = hex("#6B5843"),
