@@ -1,0 +1,27 @@
+return {
+    maxWeeks = 6,
+    actionsPerWeek = 3,
+    packSize = 3,
+    cardsToChoose = 2,
+    handSize = 5,
+    exchangesPerDate = 5,
+    maxPressure = 6,
+    goodDateChemistry = 7,
+    greatDateChemistry = 10,
+    greatDatePressure = 3,
+    romanceAffection = 5,
+    tier2Stat = 5,
+    tier3Stat = 9,
+    typeOrder = { "challenge", "wit", "connection" },
+    moodOrder = { "competitive", "curious", "vulnerable", "playful", "relaxed" },
+    statForType = {
+        challenge = "valor",
+        wit = "wit",
+        connection = "empathy",
+    },
+    typeLabels = {
+        challenge = "Challenge",
+        wit = "Wit",
+        connection = "Connection",
+    },
+}
