@@ -1,0 +1,43 @@
+GIMP Palette
+Name: heartscale_map
+Columns: 8
+#
+ 16  16  20	bg
+ 26  26  32	panel
+ 36  36  43	panel2
+232 232 232	ink
+168 168 178	muted
+ 87  87  97	dim
+  5   5   6	black
+245 196  51	warning
+ 38  53  42	grass
+ 31  44  35	grassDark
+ 47  94  58	leaf
+ 56 199 115	connection
+107  88  67	path
+ 84  69  58	pathEdge
+ 69  69  79	plaza
+ 85  85  95	plazaLine
+ 54  48  64	wall
+ 84  76  94	wallTop
+122  86  54	wood
+ 46  94 140	water
+ 20  15  18	door
+245  79  31	kaela
+152  49  19	kaela mid
+ 54  17   7	kaela dark
+ 46 189 242	veyra
+ 28 117 150	veyra mid
+ 10  42  53	veyra dark
+112 219  46	sarka
+ 70 136  28	sarka mid
+ 25  48  10	sarka dark
+176  89 240	nyxara
+109  55 149	nyxara mid
+ 39  20  53	nyxara dark
+240 199  71	aurelia
+149 123  44	aurelia mid
+ 53  44  16	aurelia dark
+232 232 232	hall
+144 144 144	hall mid
+ 51  51  51	hall dark
