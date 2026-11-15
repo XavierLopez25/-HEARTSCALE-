@@ -1,0 +1,48 @@
+return {
+    order = { "combat_training", "tactical_study", "guild_help" },
+    combat_training = {
+        name = "Combat Training",
+        short = "Train",
+        effects = { valor = 2 },
+        tags = { "training", "challenge" },
+        relatedType = "challenge",
+        lines = {
+            "Kaela decided five sets still counted as warm-up.",
+            "You learned that safety lives in the shoulders too.",
+            "The practice blade felt lighter by the end.",
+            "A bruise is not a lesson, but today it brought one.",
+            "You held your stance longer than yesterday.",
+            "Someone whistled after your last strike. Probably approval.",
+        },
+    },
+    tactical_study = {
+        name = "Tactical Study",
+        short = "Study",
+        effects = { wit = 2 },
+        tags = { "study", "arcane", "strategy" },
+        relatedType = "wit",
+        lines = {
+            "An old map explained three new problems.",
+            "You found the trick hidden in the training manual.",
+            "Nyxara left margin notes. Most of them were warnings.",
+            "You practiced saying 'actually' without sounding unbearable.",
+            "The guild archive smelled like dust and useful trouble.",
+            "A pattern finally clicked.",
+        },
+    },
+    guild_help = {
+        name = "Guild Help",
+        short = "Help",
+        effects = { empathy = 2 },
+        tags = { "support", "guild", "care" },
+        relatedType = "connection",
+        lines = {
+            "You stayed in the infirmary longer than planned.",
+            "Aurelia noticed that you asked before helping.",
+            "Someone needed tea, bandages, and zero speeches.",
+            "You carried boxes, listened well, and avoided heroic speeches.",
+            "Quiet work left the room better than you found it.",
+            "A small kindness traveled faster than gossip.",
+        },
+    },
+}
